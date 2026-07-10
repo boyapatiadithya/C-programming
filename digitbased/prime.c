@@ -11,5 +11,5 @@ count=count+1;
     }if(count==2)
     printf("%d is prime no",n);
     else 
-    printf("%d is not a prime no",n);
+    printf("%d is not a prime no",n);   // (count==1)?printf("prime"):printf("not prime");
 }
