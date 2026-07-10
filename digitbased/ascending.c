@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int n, prev = 10, num, asc = 1;
+    int n, prev = 10, r, asc = 1;
     printf("enter the n value");
     scanf("%d", &n);
 
     while (n > 0) {
-        num = n % 10;
-        if (num > prev) {
+        r = n % 10;
+        if (r > prev) {
             asc = 0;
             break;
         }
-        prev = num;
+        prev = r;
         n /= 10;
     }
 
