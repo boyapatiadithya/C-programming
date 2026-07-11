@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main(){
-    int num,digit, count=0, flag=0;
+    int n, r, count=0, flag=0;
     printf("Enter a number: ");
-    scanf("%d",&num);
-    while(num>0){
-        digit=num%10;
-        if(digit==0)
+    scanf("%d",&n);
+    while(n>0){
+        r=n%10;
+        if(r==0)
             count++;
-        num/=10;
-        flag=digit;
+        n/=10;
+        flag=r;
     }
     (count>=1 && flag!=0)?printf("Duck number"):printf("not Duck number"); 
 }
