@@ -18,14 +18,9 @@ int main() {
         {
             second = r;
         }
-
         n /= 10;
     }
-
-    if (second == -1)
-        printf("Second largest doesn't exist");
-    else
-        printf("Second largest = %d", second);
-
-    return 0;
+    printf("first highest value: %d\n", first);
+    printf("second highest value: %d\n", second);
+   
 }
