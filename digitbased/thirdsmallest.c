@@ -20,10 +20,8 @@ int main() {
         else if (r > second && r < third) {
             third = r;
         }
-
         n /= 10;
     }
-
     if (third == 10)
         printf("3rd smallest doesn't exist");
     else
