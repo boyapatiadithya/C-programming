@@ -1,8 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n;
-    static int large,r;
+    int n,large,r;
     printf("Enter a number: ");
     scanf("%d",&n);
     while(n>0)
