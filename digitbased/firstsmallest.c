@@ -2,7 +2,6 @@
 int main()
 {
     int n,r,first=9; 
-    // static int small=9;
     printf("Enter a number: ");
     scanf("%d",&n);
     while(n>0){
