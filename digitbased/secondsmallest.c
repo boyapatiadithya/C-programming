@@ -1,13 +1,16 @@
 #include <stdio.h>
-int main() {
-    int n, r, first= 9, second = 10;
+int main()
+{
+    int n, r, first = 9, second = 10;
     printf("enter the value of n:");
     scanf("%d", &n);
-    while (n > 0) {
+    while (n > 0)
+    {
         r = n % 10;
-        if (r < first) {
-            second=first;
-            first= r;
+        if (r < first)
+        {
+            second = first;
+            first = r;
         }
         else if (r > first && r < second)
             second = r;
